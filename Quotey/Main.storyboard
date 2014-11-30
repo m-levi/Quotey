@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="Quotey" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aTJ-oA-dau">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="59M-r9-pxH" customClass="SpringyTapView" customModule="Quotey" customModuleProvider="target">
+                                <rect key="frame" x="40" y="529" width="71" height="101"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Skipped" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4FA-Sr-cYj">
+                                        <rect key="frame" x="14" y="80" width="47" height="21"/>
+                                        <fontDescription key="fontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="15"/>
+                                        <color key="textColor" red="0.53333333333333333" green="0.53333333333333333" blue="0.53333333333333333" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aNO-Sz-qgE">
+                                        <rect key="frame" x="0.0" y="0.0" width="71" height="71"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.99991267919540405" green="1" blue="0.99988144636154175" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="mVg-Et-Lrk" appends="YES" id="n7R-8r-eYH"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dxD-9I-i0f" customClass="SpringyTapView" customModule="Quotey" customModuleProvider="target">
+                                <rect key="frame" x="264" y="529" width="71" height="101"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Loved" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XaC-ne-QrG">
+                                        <rect key="frame" x="14" y="80" width="42" height="21"/>
+                                        <fontDescription key="fontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="15"/>
+                                        <color key="textColor" red="0.53333333329999999" green="0.53333333329999999" blue="0.53333333329999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="X6E-NG-0Cb">
+                                        <rect key="frame" x="0.0" y="0.0" width="71" height="71"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.99991267919540405" green="1" blue="0.99988144636154175" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="DFt-Gt-JdB" appends="YES" id="yv3-Pd-p9f"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IHe-aR-lk9">
+                                <rect key="frame" x="17" y="149" width="340" height="340"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="H. Jackson Brown Jr" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M7i-2g-Umj">
+                                        <rect key="frame" x="70" y="235" width="200" height="25"/>
+                                        <fontDescription key="fontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="18"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="br4-5D-nCa">
+                                        <rect key="frame" x="35" y="79" width="270" height="148"/>
+                                        <string key="text">Twenty years from now you will be more disappointed by the things that you didn't do than by the ones you did do. So throw off the bowlines. Sail away from the safe harbor. Catch the trade winds in your sails. Explore. Dream. Discoverss.</string>
+                                        <fontDescription key="fontDescription" name="AvenirNextCondensed-Medium" family="Avenir Next Condensed" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="BZN-ol-Isf" appends="YES" id="hl6-RV-ec0"/>
+                                </connections>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.98761016130447388" green="0.98775166273117065" blue="0.98757928609848022" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="pqE-yx-Nl6"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="card" destination="IHe-aR-lk9" id="RjC-ui-1Tb"/>
+                        <outlet property="keepButton" destination="dxD-9I-i0f" id="MiQ-Sw-Adn"/>
+                        <outlet property="quoteAuthorLabel" destination="M7i-2g-Umj" id="GOn-g7-rqw"/>
+                        <outlet property="quoteTextLabel" destination="br4-5D-nCa" id="cVY-Iy-vhn"/>
+                        <segue destination="NrS-Hu-K7z" kind="show" identifier="keepSeg" id="iT0-qt-TAJ"/>
+                        <segue destination="3J9-oq-Ndz" kind="show" identifier="skipSeg" id="iZo-jo-HGL"/>
+                    </connections>
+                </viewController>
+                <view contentMode="scaleToFill" id="6jY-Xb-R6a">
+                    <rect key="frame" x="0.0" y="0.0" width="71" height="101"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SKIP" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LYj-uA-y2E">
+                            <rect key="frame" x="14" y="80" width="42" height="21"/>
+                            <fontDescription key="fontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="15"/>
+                            <color key="textColor" red="0.53333333329999999" green="0.53333333329999999" blue="0.53333333329999999" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Lyl-Kt-jXg">
+                            <rect key="frame" x="0.0" y="0.0" width="71" height="71"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="BZN-ol-Isf">
+                    <connections>
+                        <action selector="handlePan:" destination="vXZ-lx-hvc" id="3hT-oo-32v"/>
+                    </connections>
+                </panGestureRecognizer>
+                <customObject id="0jE-Ha-ZIM" customClass="QuoteyStyleKit" customModule="Quotey" customModuleProvider="target">
+                    <connections>
+                        <outletCollection property="canvas1Targets" destination="X6E-NG-0Cb" collectionClass="NSMutableArray" id="Cwd-Qx-8Tb"/>
+                        <outletCollection property="rectangle8Targets" destination="aTJ-oA-dau" collectionClass="NSMutableArray" id="MbW-3F-ovw"/>
+                        <outletCollection property="canvas2Targets" destination="aNO-Sz-qgE" collectionClass="NSMutableArray" id="VpU-nC-bSw"/>
+                    </connections>
+                </customObject>
+                <tapGestureRecognizer id="DFt-Gt-JdB">
+                    <connections>
+                        <action selector="keepTapped:" destination="vXZ-lx-hvc" id="GDi-Mn-GSf"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="mVg-Et-Lrk">
+                    <connections>
+                        <action selector="skipTapped:" destination="vXZ-lx-hvc" id="1qN-6P-HTx"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="1367.5" y="1117.5"/>
+        </scene>
+        <!--Quotes you ♥︎-->
+        <scene sceneID="dCv-iI-vYz">
+            <objects>
+                <tableViewController id="uNT-Kt-Ivv" customClass="KeepTableViewController" customModule="Quotey" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" allowsSelection="NO" showsSelectionImmediatelyOnTouchBegin="NO" rowHeight="174" sectionHeaderHeight="22" sectionFooterHeight="22" id="j8s-ey-Ptr">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="174" id="K1D-02-37S" customClass="QuoteyTableViewCell" customModule="Quotey" customModuleProvider="target">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="K1D-02-37S" id="jXk-on-luB">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mdn-KN-cjP">
+                                            <rect key="frame" x="23" y="16" width="329" height="110"/>
+                                            <string key="text">Twenty years from now you will be more disappointed by the things that you didn't do than by the ones you did do. So throw off the bowlines. Sail away from the safe harbor. Catch the trade winds in your sails. Explore. Dream. Discoverss.</string>
+                                            <fontDescription key="fontDescription" name="AvenirNextCondensed-Medium" family="Avenir Next Condensed" pointSize="16"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="H. Jackson Brown Jr" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zro-0O-QMH">
+                                            <rect key="frame" x="23" y="134" width="121" height="22"/>
+                                            <fontDescription key="fontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="16"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="Zro-0O-QMH" firstAttribute="leading" secondItem="jXk-on-luB" secondAttribute="leadingMargin" constant="15" id="5oI-f3-cgg"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="Mdn-KN-cjP" secondAttribute="trailing" constant="15" id="Nqh-SN-x9s"/>
+                                        <constraint firstItem="Mdn-KN-cjP" firstAttribute="top" secondItem="jXk-on-luB" secondAttribute="topMargin" constant="8" id="Ny8-X7-fNI"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="Zro-0O-QMH" secondAttribute="bottom" constant="9" id="e0N-rb-jXl"/>
+                                        <constraint firstItem="Zro-0O-QMH" firstAttribute="top" secondItem="Mdn-KN-cjP" secondAttribute="bottom" constant="8" id="vOk-IX-DuN"/>
+                                        <constraint firstItem="Mdn-KN-cjP" firstAttribute="leading" secondItem="jXk-on-luB" secondAttribute="leadingMargin" constant="15" id="yIu-IF-LGe"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="authorLabel" destination="Zro-0O-QMH" id="Ycb-sd-eid"/>
+                                    <outlet property="quoteTextLabel" destination="Mdn-KN-cjP" id="L25-di-Ent"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <sections/>
+                        <connections>
+                            <outlet property="dataSource" destination="uNT-Kt-Ivv" id="AHd-0a-PiQ"/>
+                            <outlet property="delegate" destination="uNT-Kt-Ivv" id="BLy-1P-55a"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Quotes you ♥︎" id="9vv-hc-KTH">
+                        <barButtonItem key="leftBarButtonItem" id="YnQ-eW-Rjg">
+                            <connections>
+                                <action selector="cancelPressed:" destination="uNT-Kt-Ivv" id="RNY-YS-1ci"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jn0-bN-1Wp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="r3C-4z-6jd" customClass="QuoteyStyleKit" customModule="Quotey" customModuleProvider="target">
+                    <connections>
+                        <outletCollection property="canvas3Targets" destination="YnQ-eW-Rjg" collectionClass="NSMutableArray" id="tMc-iw-RcW"/>
+                    </connections>
+                </customObject>
+            </objects>
+            <point key="canvasLocation" x="2267.5" y="631.5"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="rw8-6Z-ts5">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="NrS-Hu-K7z" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" shadowImage="Rectangle 38" id="XEv-5O-NG5">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" red="0.43297106027603149" green="0.63479691743850708" blue="0.95919471979141235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="barTintColor" red="0.99991267919540405" green="1" blue="0.99988144636154175" alpha="0.93089099216710181" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="19"/>
+                            <color key="textColor" red="0.25490196078431371" green="0.87058823529411766" blue="0.32156862745098042" alpha="1" colorSpace="calibratedRGB"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="uNT-Kt-Ivv" kind="relationship" relationship="rootViewController" id="d59-Xz-uk0"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uVq-sT-Amm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1837.5" y="631.5"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="7W9-om-0fh">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="3J9-oq-Ndz" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="aes-sY-gYU">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="19"/>
+                            <color key="textColor" red="0.96078431372549022" green="0.18823529411764706" blue="0.19607843137254902" alpha="1" colorSpace="calibratedRGB"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Eyc-bR-Fzs" kind="relationship" relationship="rootViewController" id="N5N-ld-q1D"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JNe-B7-h9X" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1837.5" y="1397.5"/>
+        </scene>
+        <!--Quotes you don't ♥︎-->
+        <scene sceneID="Ntd-xO-gCG">
+            <objects>
+                <tableViewController id="Eyc-bR-Fzs" customClass="SkipTableViewController" customModule="Quotey" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" allowsSelection="NO" showsSelectionImmediatelyOnTouchBegin="NO" rowHeight="174" sectionHeaderHeight="22" sectionFooterHeight="22" id="7fM-Ic-qwg">
+                        <rect key="frame" x="0.0" y="64" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="174" id="ZJ4-Q1-p8j" customClass="QuoteyTableViewCell" customModule="Quotey" customModuleProvider="target">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ZJ4-Q1-p8j" id="d5D-Lw-Y4s">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="23F-Aa-Btj">
+                                            <rect key="frame" x="23" y="16" width="329" height="110"/>
+                                            <string key="text">Twenty years from now you will be more disappointed by the things that you didn't do than by the ones you did do. So throw off the bowlines. Sail away from the safe harbor. Catch the trade winds in your sails. Explore. Dream. Discoverss.</string>
+                                            <fontDescription key="fontDescription" name="AvenirNextCondensed-Medium" family="Avenir Next Condensed" pointSize="16"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="H. Jackson Brown Jr" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zh5-KE-393">
+                                            <rect key="frame" x="23" y="134" width="121" height="22"/>
+                                            <fontDescription key="fontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="16"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="trailingMargin" secondItem="23F-Aa-Btj" secondAttribute="trailing" constant="15" id="7Tc-Pn-6hJ"/>
+                                        <constraint firstItem="Zh5-KE-393" firstAttribute="leading" secondItem="d5D-Lw-Y4s" secondAttribute="leadingMargin" constant="15" id="Ahy-WE-zVH"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="Zh5-KE-393" secondAttribute="bottom" constant="9" id="FLV-xd-bbG"/>
+                                        <constraint firstItem="23F-Aa-Btj" firstAttribute="leading" secondItem="d5D-Lw-Y4s" secondAttribute="leadingMargin" constant="15" id="X6f-d1-rZv"/>
+                                        <constraint firstItem="Zh5-KE-393" firstAttribute="top" secondItem="23F-Aa-Btj" secondAttribute="bottom" constant="8" id="e9A-0I-DY4"/>
+                                        <constraint firstItem="23F-Aa-Btj" firstAttribute="top" secondItem="d5D-Lw-Y4s" secondAttribute="topMargin" constant="8" id="f08-9A-MLL"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="authorLabel" destination="Zh5-KE-393" id="TSD-cw-o92"/>
+                                    <outlet property="quoteTextLabel" destination="23F-Aa-Btj" id="cus-ht-T6Z"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <sections/>
+                        <connections>
+                            <outlet property="dataSource" destination="Eyc-bR-Fzs" id="4HW-oj-ttv"/>
+                            <outlet property="delegate" destination="Eyc-bR-Fzs" id="WCJ-PA-OBK"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Quotes you don't ♥︎" id="MgC-gV-NVI">
+                        <barButtonItem key="leftBarButtonItem" id="86H-hS-5uQ">
+                            <connections>
+                                <action selector="cancelPressed:" destination="Eyc-bR-Fzs" id="1JW-gA-Y1A"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DT3-eP-IyK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="Cqs-xA-bed" customClass="QuoteyStyleKit" customModule="Quotey" customModuleProvider="target">
+                    <connections>
+                        <outletCollection property="canvas3Targets" destination="86H-hS-5uQ" collectionClass="NSMutableArray" id="yg0-vo-4XR"/>
+                    </connections>
+                </customObject>
+            </objects>
+            <point key="canvasLocation" x="2267.5" y="1397.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Rectangle 38" width="375" height="39"/>
+    </resources>
+</document>

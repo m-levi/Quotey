@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FEB2981A1A28FE930048408A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB298191A28FE930048408A /* AppDelegate.swift */; };
+		FEB2981D1A28FE930048408A /* Quotey.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FEB2981B1A28FE930048408A /* Quotey.xcdatamodeld */; };
+		FEB298331A28FE930048408A /* QuoteyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB298321A28FE930048408A /* QuoteyTests.swift */; };
+		FEB298431A28FEDE0048408A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB2983C1A28FEDE0048408A /* ViewController.swift */; };
+		FEB298441A28FEDE0048408A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEB2983D1A28FEDE0048408A /* Main.storyboard */; };
+		FEB298451A28FEDE0048408A /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB2983E1A28FEDE0048408A /* Global.swift */; };
+		FEB298461A28FEDE0048408A /* QuoteyStyleKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB2983F1A28FEDE0048408A /* QuoteyStyleKit.swift */; };
+		FEB298471A28FEDE0048408A /* SpringyTapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB298401A28FEDE0048408A /* SpringyTapView.swift */; };
+		FEB298481A28FEDE0048408A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEB298411A28FEDE0048408A /* Images.xcassets */; };
+		FEB298491A28FEDE0048408A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEB298421A28FEDE0048408A /* LaunchScreen.xib */; };
+		FEB2984D1A28FF270048408A /* KeepTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB2984A1A28FF270048408A /* KeepTableViewController.swift */; };
+		FEB2984E1A28FF270048408A /* SkipTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB2984B1A28FF270048408A /* SkipTableViewController.swift */; };
+		FEB2984F1A28FF270048408A /* QuoteyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB2984C1A28FF270048408A /* QuoteyTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FEB2982D1A28FE930048408A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEB2980C1A28FE930048408A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEB298131A28FE930048408A;
+			remoteInfo = Quotey;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FEB298141A28FE930048408A /* Quotey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quotey.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEB298181A28FE930048408A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEB298191A28FE930048408A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FEB2981C1A28FE930048408A /* Quotey.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Quotey.xcdatamodel; sourceTree = "<group>"; };
+		FEB2982C1A28FE930048408A /* QuoteyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuoteyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEB298311A28FE930048408A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEB298321A28FE930048408A /* QuoteyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteyTests.swift; sourceTree = "<group>"; };
+		FEB2983C1A28FEDE0048408A /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FEB2983D1A28FEDE0048408A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		FEB2983E1A28FEDE0048408A /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		FEB2983F1A28FEDE0048408A /* QuoteyStyleKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuoteyStyleKit.swift; sourceTree = "<group>"; };
+		FEB298401A28FEDE0048408A /* SpringyTapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringyTapView.swift; sourceTree = "<group>"; };
+		FEB298411A28FEDE0048408A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FEB298421A28FEDE0048408A /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		FEB2984A1A28FF270048408A /* KeepTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KeepTableViewController.swift; path = ../Xcode/Quotey/KeepTableViewController.swift; sourceTree = "<group>"; };
+		FEB2984B1A28FF270048408A /* SkipTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SkipTableViewController.swift; path = ../Xcode/Quotey/Quotey/SkipTableViewController.swift; sourceTree = "<group>"; };
+		FEB2984C1A28FF270048408A /* QuoteyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QuoteyTableViewCell.swift; path = ../Xcode/Quotey/Quotey/QuoteyTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEB298111A28FE930048408A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEB298291A28FE930048408A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FEB2980B1A28FE930048408A = {
+			isa = PBXGroup;
+			children = (
+				FEB298161A28FE930048408A /* Quotey */,
+				FEB2982F1A28FE930048408A /* QuoteyTests */,
+				FEB298151A28FE930048408A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FEB298151A28FE930048408A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEB298141A28FE930048408A /* Quotey.app */,
+				FEB2982C1A28FE930048408A /* QuoteyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEB298161A28FE930048408A /* Quotey */ = {
+			isa = PBXGroup;
+			children = (
+				FEB298191A28FE930048408A /* AppDelegate.swift */,
+				FEB2983C1A28FEDE0048408A /* ViewController.swift */,
+				FEB298501A28FF2C0048408A /* TableViews */,
+				FEB2983D1A28FEDE0048408A /* Main.storyboard */,
+				FEB2983E1A28FEDE0048408A /* Global.swift */,
+				FEB2983F1A28FEDE0048408A /* QuoteyStyleKit.swift */,
+				FEB298401A28FEDE0048408A /* SpringyTapView.swift */,
+				FEB298411A28FEDE0048408A /* Images.xcassets */,
+				FEB298421A28FEDE0048408A /* LaunchScreen.xib */,
+				FEB2981B1A28FE930048408A /* Quotey.xcdatamodeld */,
+				FEB298171A28FE930048408A /* Supporting Files */,
+			);
+			path = Quotey;
+			sourceTree = "<group>";
+		};
+		FEB298171A28FE930048408A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FEB298181A28FE930048408A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FEB2982F1A28FE930048408A /* QuoteyTests */ = {
+			isa = PBXGroup;
+			children = (
+				FEB298321A28FE930048408A /* QuoteyTests.swift */,
+				FEB298301A28FE930048408A /* Supporting Files */,
+			);
+			path = QuoteyTests;
+			sourceTree = "<group>";
+		};
+		FEB298301A28FE930048408A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FEB298311A28FE930048408A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FEB298501A28FF2C0048408A /* TableViews */ = {
+			isa = PBXGroup;
+			children = (
+				FEB2984A1A28FF270048408A /* KeepTableViewController.swift */,
+				FEB2984B1A28FF270048408A /* SkipTableViewController.swift */,
+				FEB2984C1A28FF270048408A /* QuoteyTableViewCell.swift */,
+			);
+			name = TableViews;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEB298131A28FE930048408A /* Quotey */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEB298361A28FE930048408A /* Build configuration list for PBXNativeTarget "Quotey" */;
+			buildPhases = (
+				FEB298101A28FE930048408A /* Sources */,
+				FEB298111A28FE930048408A /* Frameworks */,
+				FEB298121A28FE930048408A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Quotey;
+			productName = Quotey;
+			productReference = FEB298141A28FE930048408A /* Quotey.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FEB2982B1A28FE930048408A /* QuoteyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEB298391A28FE930048408A /* Build configuration list for PBXNativeTarget "QuoteyTests" */;
+			buildPhases = (
+				FEB298281A28FE930048408A /* Sources */,
+				FEB298291A28FE930048408A /* Frameworks */,
+				FEB2982A1A28FE930048408A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEB2982E1A28FE930048408A /* PBXTargetDependency */,
+			);
+			name = QuoteyTests;
+			productName = QuoteyTests;
+			productReference = FEB2982C1A28FE930048408A /* QuoteyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEB2980C1A28FE930048408A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Martini;
+				TargetAttributes = {
+					FEB298131A28FE930048408A = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					FEB2982B1A28FE930048408A = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = FEB298131A28FE930048408A;
+					};
+				};
+			};
+			buildConfigurationList = FEB2980F1A28FE930048408A /* Build configuration list for PBXProject "Quotey" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FEB2980B1A28FE930048408A;
+			productRefGroup = FEB298151A28FE930048408A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEB298131A28FE930048408A /* Quotey */,
+				FEB2982B1A28FE930048408A /* QuoteyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FEB298121A28FE930048408A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEB298441A28FEDE0048408A /* Main.storyboard in Resources */,
+				FEB298491A28FEDE0048408A /* LaunchScreen.xib in Resources */,
+				FEB298481A28FEDE0048408A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEB2982A1A28FE930048408A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEB298101A28FE930048408A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEB298451A28FEDE0048408A /* Global.swift in Sources */,
+				FEB298431A28FEDE0048408A /* ViewController.swift in Sources */,
+				FEB2984F1A28FF270048408A /* QuoteyTableViewCell.swift in Sources */,
+				FEB2981D1A28FE930048408A /* Quotey.xcdatamodeld in Sources */,
+				FEB2981A1A28FE930048408A /* AppDelegate.swift in Sources */,
+				FEB298461A28FEDE0048408A /* QuoteyStyleKit.swift in Sources */,
+				FEB2984D1A28FF270048408A /* KeepTableViewController.swift in Sources */,
+				FEB2984E1A28FF270048408A /* SkipTableViewController.swift in Sources */,
+				FEB298471A28FEDE0048408A /* SpringyTapView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEB298281A28FE930048408A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEB298331A28FE930048408A /* QuoteyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FEB2982E1A28FE930048408A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEB298131A28FE930048408A /* Quotey */;
+			targetProxy = FEB2982D1A28FE930048408A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FEB298341A28FE930048408A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FEB298351A28FE930048408A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FEB298371A28FE930048408A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Quotey/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FEB298381A28FE930048408A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Quotey/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FEB2983A1A28FE930048408A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = QuoteyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quotey.app/Quotey";
+			};
+			name = Debug;
+		};
+		FEB2983B1A28FE930048408A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = QuoteyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quotey.app/Quotey";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEB2980F1A28FE930048408A /* Build configuration list for PBXProject "Quotey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEB298341A28FE930048408A /* Debug */,
+				FEB298351A28FE930048408A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEB298361A28FE930048408A /* Build configuration list for PBXNativeTarget "Quotey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEB298371A28FE930048408A /* Debug */,
+				FEB298381A28FE930048408A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEB298391A28FE930048408A /* Build configuration list for PBXNativeTarget "QuoteyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEB2983A1A28FE930048408A /* Debug */,
+				FEB2983B1A28FE930048408A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FEB2981B1A28FE930048408A /* Quotey.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FEB2981C1A28FE930048408A /* Quotey.xcdatamodel */,
+			);
+			currentVersion = FEB2981C1A28FE930048408A /* Quotey.xcdatamodel */;
+			path = Quotey.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FEB2980C1A28FE930048408A /* Project object */;
+}
